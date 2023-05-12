@@ -2,7 +2,6 @@
 #include <fstream>
 
 
-
 int main() {
 
 	std::string str;
@@ -34,13 +33,13 @@ int main() {
 	while (!fin_w.eof()) {
 
 		str = "";
-		fin_w >> str;		
+		fin_w >> str;
 
 		if (str == keyword) {
 
 			++number_of_repetition;
 
-		}	
+		}
 
 	}
 
